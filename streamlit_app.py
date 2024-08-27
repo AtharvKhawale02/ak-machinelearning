@@ -16,7 +16,7 @@ with st.expander('Data'):
   Y= df.Brand
   Y
 
-with st.expnader('Data Visualization'):
+with st.expander('Data Visualization'):
   st.scatter_chart(data=df, x= 'Color' , y='Storage', color='Brand')
 
   
