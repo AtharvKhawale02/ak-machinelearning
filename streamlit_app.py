@@ -9,4 +9,12 @@ with st.expander('Data'):
   st.write('**Raw data**')
   df= pd.read_csv('https://raw.githubusercontent.com/sohamglobal/datasets/main/Flipkart_Mobiles.csv')
   df
+  st.write('**X**')
+  X = df.drop('Brand', axis=1)
+  X
+  st.write('**Y**')
+  Y= df.brand
+  Y
+
+  
   
