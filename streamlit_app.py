@@ -13,7 +13,7 @@ with st.expander('Data'):
   X = df.drop('Brand', axis=1)
   X
   st.write('**Y**')
-  Y= df.brand
+  Y= df.Brand
   Y
 
   
