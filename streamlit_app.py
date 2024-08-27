@@ -17,7 +17,7 @@ with st.expander('Data'):
   Y
 
 with st.expander('Data Visualization'):
-  st.bar_chart(data=df, x= 'Color' , y='Storage', color='Brand', horizontal=True)
+  st.bar_chart(data=df, x= 'Color' , y='Storage', color='Brand',stack=False)
 
   
   
